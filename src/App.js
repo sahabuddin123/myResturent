@@ -1,8 +1,8 @@
-import './App.css';
+import React from 'react';
 import MainComponent from './components/mainComponent';
 function App() {
   return (
-    <div className="App">
+    <div>
       <MainComponent />
     </div>
   );
