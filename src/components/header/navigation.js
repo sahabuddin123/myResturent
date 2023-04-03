@@ -16,7 +16,7 @@ class Navigation extends Component {
     }
     render() {
         return (
-            <Navbar dark color="dark" expand="sm" container="xl" fixed="top">
+            <Navbar dark color="dark" expand="sm" container="xl">
                 <NavbarToggler onClick={this.navToggle} />
                 <NavbarBrand href="/">INNOVA Resturent</NavbarBrand>
                 <Collapse isOpen={this.state.isNavOpen} navbar>
